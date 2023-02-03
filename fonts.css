@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Magmatic';
+  src: url('../fonts/magmatic-vf.woff2') format('woff2-variations');
+}
+
+p{
+  font-family: 'Magmatic', sans-serif;
+  font-variation-settings: 'wght' 300,'wdth' 120, 'XHGT' 100; 👈
+}
