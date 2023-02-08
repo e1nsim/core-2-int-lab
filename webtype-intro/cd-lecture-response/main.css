@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+
+h2 {
+ font-size: 30px;
+}
+.cdresponse {
+    display: grid;
+    margin: 1rem;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 600px 600px;
+}
+.response1 {
+    width: 400px;
+    height: 500px;
+    color: black;
+    background-color: lightgrey;
+    margin: .5rem;
+    padding: 1rem;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.response2 {
+    width: 400px;
+    height: 500px;
+    color: black;
+    background-color: lightgrey;
+    margin: .5rem;
+    padding: 1rem;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.response3 {
+    width: 400px;
+    height: 500px;
+    color: black;
+    background-color: lightgrey;
+    margin: .5rem;
+    padding: 1rem;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
