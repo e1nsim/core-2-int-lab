@@ -1,5 +1,5 @@
 body {
-    background-color: lightgoldenrodyellow;
+    background-color: whitesmoke;
     text-align: center;
     align-content:flex-start;
 }
@@ -8,6 +8,12 @@ h1 {
     font-size: 60px;
     color: rgb(96, 189, 255);
     text-align: center;
+    font-family: "cirruscumulus";
+}
+
+@font-face {
+  font-family: "cirruscumulus";
+  src: url(CirrusCumulus1.otf);
 }
 
 main {
@@ -25,6 +31,12 @@ main {
     width: 500px;
     height: 600px;
 
+  }
+
+  #c {
+grid-column-start: 3;
+grid-row-start: 1;
+color: black;
   }
   
   section {
