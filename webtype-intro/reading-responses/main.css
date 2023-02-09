@@ -1,5 +1,6 @@
 body{
     background-color: rgb(255, 238, 3);
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -18,33 +19,53 @@ nav {
 h2 {
     font-size: 20px;
     text-align: center;
-    color: rgb(255, 238, 3);
+    color: rgb(0, 0, 112);
 }
 
 .responses {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 600px 600px 600px;
-    margin: 1rem;
+    grid-template-rows: 700px 650px 700px;
+    margin-left: 5rem;
 }
-.response1 {
+#response1 {
     height: 550px;
     width: 500px;
     grid-column-start: 1; 
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    padding: 1rem;
+    padding: 15px 25px 50px;
     color: rgb(0, 0, 112);
+    border-style: dashed;
+    border-color: rgb(0, 0, 112);
+    border-width: 3px;
 }
 
-.response2 {
+#response2 {
     height: 500px;
     width: 500px;
     grid-column-start: 1; 
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
-    padding: 1rem;
+    padding: 15px 25px 10px;
     color: rgb(0, 0, 112);
+    border-style: dashed;
+    border-color: rgb(0, 0, 112);
+    border-width: 3px;
+}
+
+#response3 {
+    height: 500px;
+    width: 500px;
+    grid-column-start: 1; 
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 15px 25px 150px;
+    color: rgb(0, 0, 112);
+    border-style: dashed;
+    border-color: rgb(0, 0, 112);
+    border-width: 3px;
 }
