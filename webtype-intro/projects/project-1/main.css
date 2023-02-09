@@ -2,23 +2,19 @@ body {
     background-color: black;
     text-align: center;
     align-content:flex-start;
+    font-family:"tiny" ;
 }
 
 h1 {
-    font-size: 60px;
-    color: rgb(154, 154, 154);
+    font-size: 80px;
+    color: rgb(241, 223, 119);
     text-align: center;
-    font-family:'tiny_5x3120';
-}
-
-@font-face {
-  font-family: 'tiny_5x3120';
-  src: url('tiny5x3-120-webfont.woff2') format('woff2'),
-       url('tiny5x3-120-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+    font-family:"tiny" ;
+    -webkit-text-stroke: .25px;
+    -webkit-text-stroke-color: rgb(210, 172, 19);
 
 }
+
 
 main {
     background: #fff;
@@ -26,6 +22,10 @@ main {
     margin: 0 auto; 
   }
   
+  @font-face {
+    font-family:"tiny" ;
+    src: url(tiny5x3-120.otf);
+  }
   
   section {
     background: #ccc;
@@ -52,6 +52,8 @@ main {
     grid-column-start: 1;
     grid-row-end: 12;
     grid-column-end: 2;
+    outline-offset: 4px;
+    outline: 1px solid white;
   }
 
   .two {
@@ -60,6 +62,8 @@ main {
     grid-column-start: 2;
     grid-row-end: 11;
     grid-column-end: 3;
+    outline-offset: 4px;
+    outline: 1px solid white;
   }
 
   .three {
@@ -68,6 +72,8 @@ main {
     grid-row-end: 11;
     grid-column-start: 3;
     grid-column-end: 4;
+    outline-offset: 4px;
+    outline: 1px solid white;
   }
 
   .four {
@@ -76,6 +82,8 @@ main {
     grid-column-end: 5;
     grid-row-start: 4;
     grid-row-end: 11;
+    outline-offset: 4px;
+    outline: 1px solid white;
   }
 
   .five {
@@ -84,4 +92,6 @@ main {
     grid-column-start: 5;
     grid-row-end: 12;
     grid-column-end: 6;
+    outline-offset: 4px;
+    outline: 1px solid white;
   }
