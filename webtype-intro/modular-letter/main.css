@@ -2,16 +2,16 @@
     box-sizing: border-box;
   }
 
-  
   .swoon {
     grid-template-columns: repeat(30, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 20px;
     display: grid;
+    margin: 60px;
   }
   .s{
-    width: 300px;
-    height: 500px;
+    width: 150px;
+    height: 250px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -19,8 +19,8 @@
   }
 
   .w{
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -28,8 +28,8 @@
     grid-column-start: 5;
   }
   .o{
-    width: 300px;
-    height: 500px;
+    width: 150px;
+    height: 250px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -37,8 +37,8 @@
     grid-column-start: 11;
   }
   .oo{
-    width: 300px;
-    height: 500px;
+    width: 150px;
+    height: 250px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -47,8 +47,8 @@
   }
 
   .n{
-    width: 400px;
-    height: 500px;
+    width: 200px;
+    height: 250px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -56,9 +56,9 @@
     grid-column-start: 19;
   }
   .block{
-    background-color: lightblue;
+    background-color: rgb(160, 219, 255);
     filter: drop-shadow(5px 5px pink);
-    animation: changebg 3s infinite alternate;
+    animation: changebg 5s infinite;
     mix-blend-mode: multiply;
     border-radius: 20%;
     
@@ -87,7 +87,7 @@
     }
     100%{
       background-color:lightskyblue;
-      transform: rotate (90deg);
+      transform: rotate(360deg);
       border: 5px dotted pink;
     }
   }
