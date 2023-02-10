@@ -1,11 +1,12 @@
 *{
     box-sizing: border-box;
   }
+
   
   .swoon {
     grid-template-columns: repeat(30, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    gap: 5px;
+    gap: 20px;
     display: grid;
   }
   .s{
@@ -55,11 +56,38 @@
     grid-column-start: 19;
   }
   .block{
-    background: blue;
-  
-  /*  border-radius: 50% 0 0 0;*/
-  /*  transform: skew(10deg);*/
-  /*  mix-blend-mode: multiply; */
-  /*  filter: drop-shadow(15px 15px yellow);*/
+    background-color: lightblue;
+    filter: drop-shadow(5px 5px pink);
+    animation: changebg 3s infinite alternate;
+    mix-blend-mode: multiply;
+    border-radius: 20%;
+    
   }
-  
+
+  .block:hover {
+    background-color: plum;
+    border: 5px dotted greenyellow;
+  }
+
+
+  .text-shadow {
+    position:fixed;
+    top:0;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    -webkit-text-stroke: 5px;
+
+  }
+
+  @keyframes changebg{
+    0%{
+      background-color: rgb(255, 255, 100);
+      border: 5px dotted pink;
+    }
+    100%{
+      background-color:lightskyblue;
+      transform: rotate (90deg);
+      border: 5px dotted pink;
+    }
+  }
