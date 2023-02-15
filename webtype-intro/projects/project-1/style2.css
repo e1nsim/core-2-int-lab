@@ -1,0 +1,18 @@
+body {
+    color: white;
+    background: linear-gradient(.25turn, rgb(182, 182, 182), rgb(77, 77, 77));
+    outline-style: solid;
+    outline-color: white;
+    outline-offset: -5px;
+}
+
+
+#body {
+    display: grid;
+    margin-left: 5rem;
+    gap: 50px;
+    height: 550px;
+    flex-direction: column;
+    width: 500px;
+    font-family: 'Spectral', serif;
+}
