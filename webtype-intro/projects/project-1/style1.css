@@ -1,0 +1,49 @@
+body {
+    color: black;
+    background: linear-gradient(.25turn,white,grey);
+    outline-style: solid;
+    outline-color: white;
+    outline-offset: -5px;
+    font-size: .9vw;
+}
+
+.body {
+  display: grid;
+  grid-template-rows:    repeat(4, 200px);
+  grid-template-columns: repeat(4, 200px);
+  gap: 10px;
+  border-color: black;
+  
+}
+
+#body {
+    margin: auto;
+    width: 250px;
+    font-family: 'Spectral', serif;
+    font-weight: 300;
+    font-style: normal;
+    grid-column-start: 2;
+}
+
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 1300px;
+    top: 100%;
+  }
+
+#box {
+    height: 300px;
+    width: 500px;
+    left: 1300px;
+    outline-style: solid;
+    color: white;
+    top: 100vw;
+}
+
+
