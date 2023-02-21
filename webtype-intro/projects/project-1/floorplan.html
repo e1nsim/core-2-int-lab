@@ -25,12 +25,13 @@
 
 <body>
     <h1>In Praise of Shadows</h1>
+    <div class="instructions">find each button in the rooms <nav> <a href="#start">go to start</a></nav></div>
     <div class="floorplan">
         <div class="entrancedoor"></div>
         <div class="roof">
             <button class="hidden-button" type="button" id="modal-btn-1">1</button>
         </div>
-        <div class="room">
+        <div class="room" id="start">
             <button class="hidden-button" type="button" id="modal-btn-2">2</button>
         </div>
         <div class="alcove">
@@ -244,10 +245,7 @@
             </p><span class="close">&times;</span>
         </div>
     </div>
-    <div class="backdrop">
-        <p class="shapes">🍃</p>
-        <p class="shapes">🍂</p>
-        <p class="shapes">\</p>
+
     </div>
 
     <script type="text/javascript" src="function.js"></script>
