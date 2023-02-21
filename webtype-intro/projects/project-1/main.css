@@ -1,97 +1,36 @@
-body {
-    background-color: black;
-    text-align: center;
-    align-content:flex-start;
-    font-family: 'Spectral', serif;
-}
-
 h1 {
-    font-size: 80px;
-    color: rgb(3, 65, 12);
-    text-align: center;
-    font-family: 'Spectral', serif;
-    -webkit-text-stroke: .25px;
-    -webkit-text-stroke-color: rgb(4, 71, 27);
+  color: black;
+ -webkit-text-stroke: .05px rgb(50, 50, 50);
+  text-align: center;
+  font-size: 8vw;
+  font-family: 'Hina Mincho', serif;
+  position: absolute;
+  left: 250px;
+  top: 100px;
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 
 }
 
-
-main {
-    background: #fff;
-    width: 90vw;
-    margin: 0 auto; 
-  }
-  
-  @font-face {
-    font-family:"tiny" ;
-    src: url(tiny5x3-120.otf);
-  }
-  
-  section {
-    background: #ccc;
-    padding: 1rem;
-  
-  }
-
-  .house {
-    display: grid;
-    margin: 0 auto;
-    height: 100px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 50px 25px 25px 25px 25px;
-    grid-auto-rows: 15px;
-    gap: .5rem;
-    width: 900px;
-    height: 900px;
-    color: black;
-  }
-
-  .one {
-    background-color: white;
-    grid-row-start: 6;
-    grid-column-start: 1;
-    grid-row-end: 12;
-    grid-column-end: 2;
-    outline-offset: 4px;
-    outline: 1px solid white;
-  }
-
-  .two {
-    background-color: white;
-    grid-row-start: 5;
-    grid-column-start: 2;
-    grid-row-end: 11;
-    grid-column-end: 3;
-    outline-offset: 4px;
-    outline: 1px solid white;
-  }
-
-  .three {
-    background-color: white;
-    grid-row-start: 5;
-    grid-row-end: 11;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    outline-offset: 4px;
-    outline: 1px solid white;
-  }
-
-  .four {
-    background-color: white;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 4;
-    grid-row-end: 11;
-    outline-offset: 4px;
-    outline: 1px solid white;
-  }
-
-  .five {
-    background-color: white;
-    grid-row-start: 3;
-    grid-column-start: 5;
-    grid-row-end: 12;
-    grid-column-end: 6;
-    outline-offset: 4px;
-    outline: 1px solid white;
-  }
+#start {
+  width: 30vw;
+  height: 30vw;
+  margin: 0;
+  position: absolute;
+  border-radius: 100%;
+  top: 50%;
+  right: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: transparent;
+  border: 0px;
+  background: radial-gradient(black,white, white);
+}
