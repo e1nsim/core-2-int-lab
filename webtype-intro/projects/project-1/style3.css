@@ -1,5 +1,44 @@
+
+
 body {
     color: white;
-    background-color: black;
-    font-family: 'Spectral', serif;
+    background: linear-gradient(.25turn, grey,rgb(73, 73, 73));
+    font-size: .9vw;
 }
+
+.flexbox {
+    outline-style: solid;
+    outline-color: white;
+    outline-offset: -5px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+
+}
+#body {
+    margin:auto;
+    padding: 2vw;
+    width: 350px;
+    font-family: 'Spectral', serif;
+    font-weight: 300;
+    font-style: normal;
+    align-content: center;
+    justify-content: center;
+}
+
+#body2 {
+    margin:auto;
+    padding: 2vw;
+    width: 350px;
+    font-family: 'Spectral', serif;
+    font-weight: 300;
+    font-style: normal;
+    align-content: center;
+    justify-content: center;
+}
+
+
