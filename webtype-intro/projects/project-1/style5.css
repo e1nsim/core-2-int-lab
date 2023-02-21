@@ -1,5 +1,29 @@
 body {
     color: white;
-    background-color: black;
+    background: black;
+    outline-style: solid;
+    outline-color: white;
+    outline-offset: -5px;
+    font-size: .9vw;
+}
+
+.body {
+    display: grid;
+    grid-template-rows: repeat(5, 200px);
+    grid-template-columns: repeat(4, 200px);
+    gap: 5px;
+    margin: 2vw;
+    border-color: black;
+    align-content: center;
+
+}
+
+#body {
+    margin: auto;
+    width: 620px;
     font-family: 'Spectral', serif;
+    font-weight: 300;
+    font-style: normal;
+    grid-row-start: 3;
+    grid-column-start: 3;
 }
