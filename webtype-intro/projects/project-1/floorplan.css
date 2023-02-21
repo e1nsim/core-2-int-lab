@@ -1,0 +1,437 @@
+body {
+    background-color: black;
+    background-size: cover;
+    font-family: 'Hina Mincho', serif;
+}
+
+h1 {
+    color: black;
+   -webkit-text-stroke: .05px rgb(50, 50, 50);
+    text-align: center;
+    font-size: 8vw;
+    font-family: 'Hina Mincho', serif;
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    z-index: 1;
+}
+
+.floorplan {
+    display: grid;
+    width: 200vw;
+    height: 200vh;
+    position: relative;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    position: relative;
+}
+
+.roof {
+    border-right: 1px solid white;
+    padding: 20px;
+    font-size: 30px;
+    grid-row-start: 6;
+    grid-row-end: 10;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: .25vw solid white;
+    border-right: 0px;
+    border-top: none;
+    color: white;
+    text-align: center;
+
+}
+
+.room {
+    border-right: 1px solid white;
+    padding: 20px;
+    font-size: 30px;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 10;
+    border: .25vw solid white;
+    border-top: 0px;
+    border-right: 0px;
+    outline-offset: 20px;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.alcove {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 10;
+    border: .25vw solid white;
+    border-top: 0px;
+    color: white;
+}
+
+.studybay {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 7;
+    grid-row-end: 10;
+    border: .25vw solid white;
+    border-top: 0px;
+    color: white;
+
+}
+
+.mainroom {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    border: .25vw solid white;
+    color: white;
+}
+
+.garden {
+    grid-column-start: 8;
+    grid-row-start: 3;
+    height: 9vw;
+    border-left: .25vw solid white;
+    position: relative;
+    align-self: end;
+}
+
+.fill {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    border: .25vw solid white;
+    border-right: .25vw solid white;
+    color: white;
+}
+
+
+.fill3 {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 8;
+    grid-row-end: 10;
+    border: .25vw solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: white;
+}
+
+.fill4 {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    border: .25vw solid white;
+    border-right: 0px;
+    border-left: 0px;
+    color: white;
+}
+
+.fill5 {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    border: .25vw solid white;
+    border-left: 0px;
+    border-right: 0px;
+    color: white;
+}
+
+.filldoor {
+    width: 6vw;
+    height: 6vw;
+    border: .25vw solid white;
+    border-top-left-radius: 100%;
+    border-left: .15vw dashed white;
+    border-top: .15vw dashed white;
+    border-right: 0px;
+    grid-column-start: 3;
+    grid-row-start: 5;
+    rotate: 180deg;
+    outline: 3px solid black;
+}
+
+.entrancedoor {
+    width: 6vw;
+    height: 6vw;
+    border-top-left-radius: 100%;
+    border-left: .15vw dashed white;
+    border-top: .15vw dashed white;
+    border-right: 0px;
+    border-bottom: .25vw solid white;
+    grid-column-start: 1;
+    grid-row-start: 8;
+    justify-self: end;
+    z-index: 0;
+    position: relative;
+    outline: 3px solid black;
+}
+
+.roomdoor {
+    height: .5vw;
+    width: 12vw;
+    border: .1px solid white;
+    outline: .25vw solid black;
+    position: relative;
+    grid-column-start: 7;
+    grid-row-start: 4;
+    z-index: 0;
+}
+
+.roomdoor2 {
+    height: .5vw;
+    width: 12vw;
+    border: .1px solid white;
+    outline: .25vw solid black;
+    position: relative;
+    grid-column-start: 7;
+    grid-row-start: 5;
+    align-self: end;
+    z-index: 0;
+}
+
+.roomdoor3 {
+    height: .5vw;
+    width: 12vw;
+    border: .1px solid white;
+    outline: .25vw solid black;
+    position: relative;
+    grid-column-start: 4;
+    grid-row-start: 5;
+    justify-self: center;
+    align-self: end;
+    z-index: 0;
+}
+
+.roomdoor6 {
+    height: 12vw;
+    width: .5vw;
+    border: .1px solid white;
+    outline: .25vw solid black;
+    position: relative;
+    grid-column-start: 9;
+    grid-row-start: 4;
+    justify-self: start;
+    z-index: 0;
+}
+
+.roomdoor4 {
+    height: .5vw;
+    width: 12vw;
+    border: .1px solid white;
+    outline: .25vw solid black;
+    position: relative;
+    grid-column-start: 10;
+    grid-row-start: 9;
+    justify-self: center;
+    align-self: end;
+    z-index: 0;
+}
+
+.roomdoor5 {
+    height: 8vw;
+    width: .5vw;
+    border: .1px solid white;
+    outline: .25vw solid black;
+    position: relative;
+    grid-column-start: 9;
+    grid-row-start: 7;
+    align-self: center;
+}
+
+.roomdoor7 {
+    height: 12vw;
+    width: .5vw;
+    border: .1px solid white;
+    outline: .25vw solid black;
+    position: relative;
+    grid-column-start: 3;
+    grid-row-start: 7;
+    align-self: center;
+}
+
+.roomdoor8 {
+    height: .5vw;
+    width: 8vw;
+    border: .1px solid white;
+    outline: .25vw solid black;
+    position: relative;
+    grid-column-start: 8;
+    grid-row-start: 7;
+    justify-self: center;
+    align-self: end;
+}
+
+.line-1 {
+    top: -60.2vw;
+    right: -100vw;
+    height: 47vw;
+    border-left: .25vw dashed white;
+    position: relative;
+    align-self: end;
+}
+
+.line-2 {
+    top: -60.5vw;
+    right: -53vw;
+    width: 47vw;
+    border-bottom: .25vw dashed white;
+    position: relative;
+    align-self: end;
+}
+
+#modal-btn-1 {
+    height: 2vw;
+    width: 2vw;
+    border: .25vw solid black;
+    position: relative;
+    z-index: 1;
+    font-size: 1vw;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+}
+
+#modal-btn-2 {
+    height: 2vw;
+    width: 2vw;
+    border: .25vw solid black;
+    position: relative;
+    z-index: 1;
+    font-size: 1vw;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+}
+
+#modal-btn-3 {
+    height: 2vw;
+    width: 2vw;
+    border: .25vw solid black;
+    position: relative;
+    z-index: 1;
+    font-size: 1vw;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+}
+
+#modal-btn-4 {
+    height: 2vw;
+    width: 2vw;
+    border: .25vw solid black;
+    position: relative;
+    z-index: 1;
+    font-size: 1vw;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+}
+
+#modal-btn-5 {
+    height: 2vw;
+    width: 2vw;
+    border: .25vw solid black;
+    position: relative;
+    z-index: 1;
+    font-size: 1vw;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+}
+
+
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    transform: translate(-50%, -50%);
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: black;
+    color: white;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid white;
+    width: 20%;
+    /* Adjust the width as needed */
+    height: 50%;
+    /* Adjust the height as needed */
+    overflow-y: auto;
+    /* Enable scroll if needed */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.close:hover,
+.close:focus {
+    color: gold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container {
+    height: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.spotlight {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    mix-blend-mode: screen;
+    background: radial-gradient(rgb(255, 191, 0), black);
+    opacity: 0.5;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
