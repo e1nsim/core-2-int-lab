@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: repeat(4, [col-start] 1fr);
     grid-template-rows: repeat(6, [col-start] 1fr);
-    width: 800px;
-    height: 1200px;
+    width: 55vw;
+    height: 80vw;
     font-family:Arial, Helvetica, sans-serif;
   
   }
@@ -35,7 +35,7 @@
    color: black;
    font-size: 6vw;
    text-transform:uppercase;
-   letter-spacing: -2px;
+   letter-spacing: -.2vw;
   }
   
   .item4 {
@@ -54,7 +54,7 @@
     grid-row-end: 6;
     font-size: 1vw;
     text-transform: uppercase;
-    transform: translate(0,50px);
+    transform: translate(0, 3vw);
     
   }
   
