@@ -2,8 +2,8 @@
   display: grid;
   grid-template-columns: repeat(4, [col-start] 1fr);
   grid-template-rows: repeat(6, [col-start] 1fr);
-  width: 800px;
-  height: 1200px;
+  width: 55vw;
+  height: 80vw;
   font-family: "tiny"
 
 }
