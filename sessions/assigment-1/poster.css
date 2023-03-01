@@ -3,7 +3,7 @@ body {
   font-family:Arial, Helvetica, sans-serif;
   font-weight: 100;
   font-size: 4.5vw;
-  line-height: 50px;
+  line-height: 3vw;
   color: blue;
 }
 br {
@@ -13,8 +13,8 @@ br {
     display: grid;
     grid-template-columns: repeat(5, [col-start] 1fr);
     grid-template-rows: repeat(11, [col-start] 1fr);
-    width:900px;
-    height: 1200px;
+    width:63vw;
+    height: 80vw;
   }
 
   .item1 {
@@ -31,7 +31,7 @@ br {
     grid-column-end: 4;
     grid-row-start: 6;
     grid-row-end: 8;
-    transform: translate(0, 5px);
+    transform: translate(0, .3vw);
   }
   .item3 {
     grid-column-start: 3;
@@ -40,7 +40,7 @@ br {
     grid-row-end: 8;
     background-color: blue;
     rotate: -1deg;
-    transform: translate(5px, 15px);
+    transform: translate(.3vw, 1vw);
   }
   .item4 {
     grid-column-start: 1;
@@ -49,21 +49,21 @@ br {
     grid-row-end: 10;
     background-color: blue;
     rotate: -4deg;
-   transform: translate(15px,-100px);
+    transform: translate(1vw, -7vw);
   }
   .item5 {
     grid-column-start: 3;
     grid-column-end: 6;
     grid-row-start: 8;
     grid-row-end: 10;
-    transform: translate(13px, 15px);
+    transform: translate(1vw, 1vw);
   }
   .item6 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 10;
     grid-row-end: 12;
-    transform: translate(10px, -120px);
+    transform: translate(1vw, -8vw);
   }
 
   .item7 {
@@ -73,5 +73,5 @@ br {
     grid-row-end: 12;
     rotate: -2deg;
     background-color: blue;
-    transform: translate(0, -101px);
+    transform: translate(0, -7.5vw);
   }
