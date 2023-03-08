@@ -1,0 +1,109 @@
+body {
+    background: rgb(219, 228, 235);
+}
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(6,1fr);
+    height: 100vw;
+  }
+h1 {
+    color: black;
+    font-size: 6vw;
+    position: relative;
+    z-index: 1;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 700;
+    transform: translate(-13vw,27vw);
+    rotate: -90deg;
+  }
+
+  .line-1 {
+    width: .25vw;
+    height: 62vw;
+    background: black;
+    grid-column-start: 5;
+    grid-row-start: 1;
+
+  }
+  .line-2 {
+    width: .25vw;
+    height: 62vw;
+    background: black;
+    grid-column-start: 6;
+    grid-row-start: 1;
+
+  }
+  .line-3 {
+    width: .25vw;
+    height: 62vw;
+    background: black;
+    grid-column-start: 7;
+    grid-row-start: 1;
+
+  }
+  .line-4 {
+    width: .25vw;
+    height: 62vw;
+    background: black;
+    grid-column-start: 8;
+    grid-row-start: 1;
+
+  }
+  .line-5 {
+    width: .25vw;
+    height: 62vw;
+    background: black;
+    grid-column-start: 9;
+    grid-row-start: 1;
+  }
+  .line-6 {
+    width: .25vw;
+    height: 62vw;
+    background: black;
+    grid-column-start: 10;
+    grid-row-start: 1;
+  }
+  .line-7 {
+    width: .25vw;
+    height: 62vw;
+    background: black;
+    grid-column-start: 11;
+    grid-row-start: 1;
+  }
+  .line-8 {
+    width: .25vw;
+    height: 62vw;
+    background: black;
+    grid-column-start: 12;
+    grid-row-start: 1;
+  }
+  
+  .intro {
+    grid-column-start: 9;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    transform: translate(-7vw, -4vw);
+    text-align: justify;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.25vw;
+  }
+
+  .buttons {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    color: black;
+    text-align: left;
+    top: 6vw;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.5vw;
+    transform: translate(3vw,-9vw);
+    font-weight: bold;
+
+  }
+  
+  
