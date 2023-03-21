@@ -1,46 +1,106 @@
 body {
-    background-color: whitesmoke;
-    text-align: center;
-    align-content:flex-start;
+  background-color: rgb(34, 34, 34);
 }
 
 h1 {
-    font-size: 60px;
-    color: rgb(96, 189, 255);
-    text-align: center;
-    font-family: "cirruscumulus";
+  font-size: 6vw;
+  color: rgb(76, 75, 75);
+  text-align: left;
+  font-family: 'Gothic A1', sans-serif;
+  transform: translate(0,-7vh);
+  text-align: justify;
 }
 
-@font-face {
-  font-family: "cirruscumulus";
-  src: url(CirrusCumulus1.otf);
+h1:hover {
+  color: rgb(243, 242, 236);
 }
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,400');
 
 main {
-    background: #fff;
-    width: 90vw;
-    margin: 0 auto; 
-  }
-  
-  article {
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 1rem;
-    width: 500px;
-    height: 600px;
+  width: 90vw;
+  margin: 0 auto;
+}
 
-  }
+article {
+  gap: 1rem;
+  width: 30vw;
+  height: auto;
+  justify-content: left;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(163, 140, 99);
+}
+a:link {
+  color: rgb(158,161,32);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(163, 140, 99);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(249, 248, 22);
+  text-decoration: none;
+}
 
-  #c {
-grid-column-start: 3;
-grid-row-start: 1;
-color: black;
-  }
-  
-  section {
-    background: #ccc;
-    padding: 1rem;
-  
-  }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 100vw;
+  gap: 1rem;
+  text-align: left;
+}
+
+
+section {
+  padding: 1rem;
+
+}
+
+#a {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  border-bottom: 1px solid rgb(243, 242, 236);
+}
+
+#b {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  border-bottom: 1px solid rgb(243, 242, 236);
+}
+
+#c {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  border-bottom: 1px solid rgb(243, 242, 236);
+}
+
+#d {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  border-bottom: 1px solid rgb(243, 242, 236);
+}
+
+#e {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  border-bottom: 1px solid rgb(243, 242, 236);
+}
+
+#f {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  border-bottom: 1px solid rgb(243, 242, 236);
+}
+
+#g {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  border-bottom: 1px solid rgb(243, 242, 236);
+}
+
+.number {
+font-size: 1.2rem;
+float: right;
+}
