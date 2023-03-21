@@ -1,7 +1,7 @@
 body {
     background: rgb(219, 228, 235);
 }
-.container {
+/* .container {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -10,16 +10,40 @@ body {
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(6,1fr);
     height: 100vw;
-  }
+  } */
+
+#container{
+  /* transform: rotate(-90deg);
+  transform-origin: top left;
+  width: 100vh; */
+}
+
+.candle{
+  padding: 30px 0;
+  border-bottom: 1px solid white;
+  height: 50px;
+  overflow: hidden;
+  transition: height 500ms;
+}
+.candle:hover{
+  height: 100px;
+}
+
+.hidden{
+  display: none;
+}
+
+.candle:hover .hidden{
+  display: block;
+}
 h1 {
     color: black;
     font-size: 6vw;
     position: relative;
-    z-index: 1;
     font-family: 'Gothic A1', sans-serif;
     font-weight: 700;
-    transform: translate(-13vw,27vw);
-    rotate: -90deg;
+    /* transform: translate(-13vw,27vw);
+    rotate: -90deg; */
   }
 
   .line-1 {
@@ -105,5 +129,26 @@ h1 {
     font-weight: bold;
 
   }
-  
-  
+
+  .brand {
+
+  }
+
+  .name {
+    
+  }
+  .price {
+    
+  }
+  .scent {
+    
+  }
+  .size {
+    
+  }
+  .setting {
+    
+  }
+  .description {
+    
+  }

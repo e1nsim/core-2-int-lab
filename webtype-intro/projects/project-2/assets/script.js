@@ -21,7 +21,7 @@ fetch('./assets/data.json')
     .then(response => response.json())
     .then(data => {
         console.log(data);
-        processEmojis(data);
+        processData(data);
     })
     .catch(error => console.log(error));
 
@@ -30,23 +30,23 @@ function sayHello() {
     console.log('Hello');
 }
 
-function processEmojis(data) {
+function processData(data) {
     data.forEach(function (item, index) {
         console.log(item, index);
-        let usage = item['general-usage'] * 10;
-        console.log('usage', usage);
+   
         let newItem = document.createElement("div");
-        newItem.classList.add("icon");
-        newItem.classList.add(item.categorykey);
+        newItem.classList.add("candle");
         // newItem.style.cssText = `font-size: ${usage}px`;
         newItem.innerHTML = `
-      <!--commenting out <div class="image"><img src="assets/images/${item.img}.jpg"></div>-->
-      <div class="brand">${item.brand}</div>
-      <div class="name">${item.name}</div>
-      <div class="price">${item.price}</div>
-      <div class="scent">${item.scent}</div>
-      <div class="size">${item.size}</div>
-      <div class="setting">${item.setting}</div>`;
+        <div class="description">${item.description}</div>
+        <div class="hidden">
+            <div class="brand">${item.brand}</div>
+            <div class="name">${item.name}</div>
+            <div class="price">${item.price}</div>
+            <div class="scent">${item.scent}</div>
+            <div class="size">${item.size}</div>
+            <div class="setting">${item.setting}</div>
+        </div>`;
         container.appendChild(newItem);
     });
 }
