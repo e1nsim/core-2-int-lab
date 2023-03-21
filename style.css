@@ -1,3 +1,5 @@
+
+
 body {
   background-color: rgb(34, 34, 34);
 }
@@ -7,12 +9,11 @@ h1 {
   color: rgb(76, 75, 75);
   text-align: left;
   font-family: 'Gothic A1', sans-serif;
-  transform: translate(0,-7vh);
   text-align: justify;
 }
 
 h1:hover {
-  color: rgb(243, 242, 236);
+ color: rgb(158,161,32);
 }
 @import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,400');
 
@@ -104,3 +105,62 @@ section {
 font-size: 1.2rem;
 float: right;
 }
+
+
+@media screen and (max-width: 600px) {
+  h2 {
+font-size: 50px;
+  }
+  article {
+    font-size: 15px;
+  }
+  .grid {
+    gap: .2rem;
+  }
+
+  .number {
+    font-size: 10px;
+    }
+    #a {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      border-bottom: 1px solid rgb(243, 242, 236);
+    }
+    
+    #b {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      border-bottom: 1px solid rgb(243, 242, 236);
+    }
+    
+    #c {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      border-bottom: 1px solid rgb(243, 242, 236);
+    }
+    
+    #d {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      border-bottom: 1px solid rgb(243, 242, 236);
+    }
+    
+    #e {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      border-bottom: 1px solid rgb(243, 242, 236);
+    }
+    
+    #f {
+      grid-column-start: 4;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      border-bottom: 1px solid rgb(243, 242, 236);
+    }
+    
+    #g {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      border-bottom: 1px solid rgb(243, 242, 236);
+    }
+  }
