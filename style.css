@@ -32,7 +32,7 @@ article {
   color: rgb(163, 140, 99);
 }
 a:link {
-  color: rgb(158,161,32);
+  color: rgb(163, 140, 99);
   text-decoration: none;
 }
 a:visited {
@@ -40,7 +40,21 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: rgb(249, 248, 22);
+  color: rgb(255, 255, 102);
+  text-decoration: none;
+}
+.response:hover {
+  color:rgb(206, 240, 153);
+  text-decoration: none;
+}
+
+.project:hover {
+  color: rgb(128, 232, 250);
+  text-decoration: none;
+}
+
+.site:hover {
+  color: rgb(158,161,32);
   text-decoration: none;
 }
 
