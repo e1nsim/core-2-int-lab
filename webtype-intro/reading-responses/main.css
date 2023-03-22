@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 238, 3);
+    background-color: rgb(255, 255, 68);
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -122,6 +122,20 @@ h2 {
     grid-column-end: 2;
     grid-row-start: 9;
     grid-row-end: 10;
+    padding: 15px 25px 30px;
+    color: rgb(0, 0, 112);
+    border-style: dashed;
+    border-color: rgb(0, 0, 112);
+    border-width: 3px;
+}
+
+#response8 {
+    height: 350px;
+    width: 500px;
+    grid-column-start: 1; 
+    grid-column-end: 2;
+    grid-row-start: 10;
+    grid-row-end: 11;
     padding: 15px 25px 30px;
     color: rgb(0, 0, 112);
     border-style: dashed;
