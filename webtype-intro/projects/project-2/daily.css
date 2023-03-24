@@ -13,9 +13,10 @@ body {
   } */
 
 #container{
-  /* transform: rotate(-90deg);
+  rotate:-90deg;
+  transform: translate(-50vw,0);
   transform-origin: top left;
-  width: 100vh; */
+  width: 100vh; 
 }
 
 .candle{
@@ -26,7 +27,7 @@ body {
   transition: height 500ms;
 }
 .candle:hover{
-  height: 100px;
+  height: 500px;
 }
 
 .hidden{
@@ -52,6 +53,7 @@ h1 {
     background: black;
     grid-column-start: 5;
     grid-row-start: 1;
+    transform: translate(-800px,-50px)
 
   }
   .line-2 {
@@ -131,24 +133,38 @@ h1 {
   }
 
   .brand {
-
+    rotate: 90deg;
+    transform : translate(0px,0);
   }
 
   .name {
+    font-family: 'Gothic A1', sans-serif;
+    rotate: 90deg;
     
   }
   .price {
-    
+    rotate: 90deg;
   }
   .scent {
-    
+    rotate: 90deg;
   }
   .size {
-    
+    rotate: 90deg;
   }
   .setting {
-    
+    rotate: 90deg;
   }
   .description {
+    font-family: 'Gothic A1', sans-serif;
+    rotate: 90deg;
+    width: 500px;
+   
     
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .candle:hover{
+      height: 400px;
+    }
   }
