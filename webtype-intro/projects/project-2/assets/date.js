@@ -35,7 +35,7 @@ function processData(data) {
     let filteredData = data.filter(item => {
         // check if any property contains the word "winter"
         for (let key in item) {
-            if (item.hasOwnProperty(key) && typeof item[key] === "string" && item[key].toLowerCase().includes("daily")) {
+            if (item.hasOwnProperty(key) && typeof item[key] === "string" && item[key].toLowerCase().includes("date night")) {
                 return true;
             }
         }

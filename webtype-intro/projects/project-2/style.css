@@ -1,57 +1,89 @@
 body {
-    background: rgb(209, 88, 31);
+  background: rgb(236, 236, 236);
 }
+
 .container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-    grid-template-columns: repeat(6,1fr);
-    grid-template-rows: repeat(6,1fr);
-    height: 100vw;
-  }
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  height: 100vw;
+}
+.buttons {
+  grid-column-start: 4;
+  grid-row-start: 2;
+  text-align: left;
+  top: 6vw;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 1.5vw;
+  transform: translate(3vw, -27vh);
+  font-weight: bold;
+
+} 
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+.daily:hover {
+  color: rgb(219, 228, 235);
+  text-decoration: underline;
+  
+}
+.relaxation:hover {
+  color: rgb(209, 88, 31);
+  text-decoration: underline;
+  
+}
+.date:hover {
+  color: rgb(219, 228, 235);
+  text-decoration: underline;
+  
+}
+.winter:hover {
+  color: rgb(164, 155, 148);
+  text-decoration: underline;
+  
+}
+
+
+
+
 h1 {
-    color: black;
-    font-size: 3vw;
-    position: absolute;
-    z-index: 1;
-    font-family: 'Gothic A1', sans-serif;
-    font-weight: 700;
-    transform: translate(3vw,0vw);
-  }
-  .line-1 {
-    height: .25vw;
-    width: 62vw;
-    background: black;
-    grid-column-start: 4;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    transform: translate(3vw,0vw);
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 5vw;
+  position: absolute;
+  z-index: 1;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 700;
+  transform: translate(1vw, 0vw);
+  margin-top: 0vh;
+}
 
-  }
-  
-  .intro {
-    grid-column-start: 5;
-    grid-column-end: 7;
-    grid-row-start: 2;
-    transform: translate(-7vw, -4vw);
-    text-align: justify;
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 1.25vw;
-  }
+.line-1 {
+  height: .25vw;
+  width: 62vw;
+  background: black;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  transform: translate(3vw, 0vw);
 
-  .buttons {
-    grid-column-start: 4;
-    grid-row-start: 2;
-    color: black;
-    text-align: left;
-    top: 6vw;
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 1.5vw;
-    transform: translate(3vw,-9vw);
-    font-weight: bold;
+}
 
-  }
-  
-  
+.intro {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  transform: translate(-7vw, -4vw);
+  text-align: justify;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 1.25vw;
+}

@@ -1,0 +1,236 @@
+body {
+    background: rgb(219, 228, 235);
+}
+
+/* .container {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+      grid-template-columns: repeat(12,1fr);
+      grid-template-rows: repeat(6,1fr);
+      height: 100vw;
+    } */
+
+#container {
+    /* rotate:-90deg; */
+    /* transform-origin: top left; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.candle {
+    padding: 30px 0;
+    border-left: 1px solid white;
+    width: 4vw;
+    overflow: hidden;
+    transition: width 500ms;
+    padding-left: 25px;
+    line-height: 5vh;
+    overflow-y: scroll;
+}
+
+.candle:hover {
+    width: 30vw;
+    padding: 25px;
+    text-align: right;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.candle:hover .hidden {
+    display: block;
+}
+
+h1 {
+    color: black;
+    font-size: 6vw;
+    position: relative;
+    top: 0px;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 700;
+    margin: 1vw;
+}
+
+/* .line-1 {
+    height: .25vw;
+    width: 62vw;
+    background: black;
+    grid-column-start: 5;
+    grid-row-start: 1;
+    transform: translate(-800px, -50px)
+  }
+  
+  .line-2 {
+    height: .25vw;
+    width: 62vw;
+    background: black;
+    grid-column-start: 6;
+    grid-row-start: 1;
+  
+  }
+  
+  .line-3 {
+    height: .25vw;
+    width: 62vw;
+    background: black;
+    grid-column-start: 7;
+    grid-row-start: 1;
+  
+  }
+  
+  .line-4 {
+    height: .25vw;
+    width: 62vw;
+    background: black;
+    grid-column-start: 8;
+    grid-row-start: 1;
+  
+  }
+  
+  .line-5 {
+    height: .25vw;
+    width: 62vw;
+    background: black;
+    grid-column-start: 9;
+    grid-row-start: 1;
+  }
+  
+  .line-6 {
+    height: .25vw;
+    width: 62vw;
+    background: black;
+    grid-column-start: 10;
+    grid-row-start: 1;
+  }
+  
+  .line-7 {
+    height: .25vw;
+    width: 62vw;
+    background: black;
+    grid-column-start: 11;
+    grid-row-start: 1;
+  }
+  
+  .line-8 {
+    height: .25vw;
+    width: 62vw;
+    background: black;
+    grid-column-start: 12;
+    grid-row-start: 1;
+  } */
+
+/* .intro {
+    grid-column-start: 9;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    transform: translate(-7vw, -4vw);
+    text-align: justify;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.25vw;
+  } */
+
+/* .buttons {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    color: black;
+    text-align: left;
+    top: 6vw;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1.5vw;
+    transform: translate(3vw, -9vw);
+    font-weight: bold;
+  
+  } */
+
+.brand {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 7vw;
+    font-weight: bold;
+    line-height: 11vh;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    margin-top: -5vh;
+
+}
+
+.name {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: bold;
+    font-size: 1.3vw;
+    margin-top: 5vh;
+}
+
+.price {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.scent {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.size {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.setting {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.description {
+    font-family: 'Gothic A1', sans-serif;
+    width: 400vh;
+    rotate: -90deg;
+    /* transform: rotate(-90deg); */
+    transform-origin: 1px;
+    -webkit-transform: translate(-100vh, 0vh);
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.description1 {
+    font-family: 'Gothic A1', sans-serif;
+    line-height: 2vh;
+    text-align: justify;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+  }
+
+.description:hover {
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+#img {
+    width: 35%;
+    position: relative;
+    margin-top: 10vh;
+    transform: translate(1.5vw, 0);
+}
+
+@media only screen and (max-width: 600px) {
+
+    .candle:hover {
+        height: 400px;
+    }
+
+}

@@ -1,110 +1,302 @@
 [
-    {
-      "brand": "Replica",
-      "name": "By the Fire",
-      "price": 70,
-      "scent": "warm | spicy",
-      "size": "165 g",
-      "setting": "winter, relaxation",
-      "description": "Recall the cozy and heartwarming atmosphere of a winter evening by the chimney. This luxury candle will fill your home with the addictive and wintery scent of wood and chestnuts grilling in the chimney.\n\nIt unlocks the memory of a cozy winter evening by the chimney. The atmosphere created by this candle is warm and comforting bringing a reassuring sensation peacefulness.\n\nThe warm and smoky scent of the candle has required many hours of work to adjust the ingredients of the fragrance created by renowned perfumer Marie Salamagne, and produce the exact same feeling of a reassuring warmth with the candle. Marie Salamagne used Cashmeran mixed with Clove oil to recreate the sensation of wood burning in the chimney (clove brings the burning effect of the wood). She reproduced the addictive scent of grilling Chestnuts using a Chestnuts Accord and the spicy effect of Red Berries."
-    },
-    {
-      "brand": "Replica",
-      "name": "Bubble Bath",
-      "price": 70,
-      "scent": "soap | musk | floral",
-      "size": "165 g",
-      "setting": "spring, relatation",
-      "description": "Recall the relaxing and cocooning atmosphere of a me time in a foaming bath. This fragrance candle will envelop your home in a relaxing cocoon. This scented candle is an invitation for a me time of pure wellness. It will make you imagine yourself plunging into the bubbles of a hots scented bath, feeling your body soothed from all tensions."
-    },
-    {
-      "brand": "Replica",
-      "name": "Beach Vibes",
-      "price": 70,
-      "scent": "musk | citrus | fruit",
-      "size": "165 g",
-      "setting": "daily, relaxation",
-      "description": "Recall the blissful and sunny atmosphere of summer vacations at a sandy beach. The Beach Vibes candle recreates a summer vacations atmosphere at home. You can imagine the salty breeze of the ocean under the heat of the sun as your feet sink into the burning sand."
-    },
-    {
-      "brand": "Diptyque",
-      "name": "Tubereuse",
-      "price": 82,
-      "scent": "floral",
-      "size": "190 g",
-      "setting": "daily, date night",
-      "description": "The scent of Tuberose in the wide fields of Southern India, where these fragrant white flowers are grown. From the top of their long, slender stems, they exhale a heady yet fresh and green scent, delicately nuanced with fruity, milky notes."
-    },
-    {
-      "brand": "Diptyque",
-      "name": "Baies",
-      "price": 72,
-      "scent": "fruity",
-      "size": "190 g",
-      "setting": "date night",
-      "description": "The tangy coolness of freshly picked blackcurrant berries. A few black bunches still have their leaves, their green and aromatic scent blending with the lively, flowery accents of rose."
-    },
-    {
-      "brand": "Tamburins",
-      "name": "Sounds of Night",
-      "price": 50,
-      "scent": "fruity | floral",
-      "size": "180g",
-      "setting": "relaxation, date night",
-      "description": "Ylang Ylang's crystal clear scent, reminiscent of jasmine, fuses with a spicy yet calm, herbaceous dill and the bittersweet notes of apricot. A captivating fragrance, this exotic yet sensual blend imagines the aroma that amorous lovers in Shakespeare’s plays emanated to seduce their interests on a deep, dark evening."
-    },
-    {
-      "brand": "Tamburins",
-      "name": "Cocoon Musk",
-      "price": 50,
-      "scent": "musk | woody",
-      "size": "180g",
-      "setting": "date night, home decor",
-      "description": "Musk's primitive yet warm scent of the skin stimulates the nose with an aroma of animalistic instincts. Blended with the lingering notes of a musty cigar, this sensual and sophisticated fragrance provokes a rift in our senses. Spicy and bitter notes add complexity to the soft, tender scent of flesh that arises when you are cocooned in the embrace of your loved one."
-    },
-    {
-      "brand": "Tamburins",
-      "name": "Mulberry Leaves",
-      "price": 50,
-      "scent": "spicy",
-      "size": "180g",
-      "setting": "relaxation",
-      "description": "Oakwood’s thick and heavy scent of bark, with the sweetness of cognac, brushes the tip of the nose—while the balsamic and colorful, herbaceous patchouli summons the breath of an exotic land. With the velvety soft yet balsamic note of clary sage, known as the scent of the Greek goddess Aphrodite, a world of creative aroma unfolds. Enhanced by bitter notes of myrrh’s precious medicinal herbs that exude noble spiciness, this extraordinary fragrance relaxes the mind."
-    },
-    {
-      "brand": "Le Labo",
-      "name": "SANTAL 26",
-      "price": 82,
-      "scent": "gentle | smoky | leathery",
-      "size": "245g",
-      "setting": "daily",
-      "description": "SANTAL 26 is an aristocratic scent, at once gentle, smoky, and leathery, that will fill your space and give it true personality. Come on baby, light my fire."
-    },
-    {
-      "brand": "Le Labo",
-      "name": "Veriveine",
-      "price": 82,
-      "scent": "fresh | woody | floral",
-      "size": "245g",
-      "setting": "daily",
-      "description": "This is not your grandma’s herbal tea, but a vibrant homage to the uplifting side of the verbena leaf... The scent of zesty makrut lime glistens atop a fresh and earthy blend of eucalyptus, galbanum, and violet notes. Then, a luscious floral bouquet and woods creates an effusive aromatic harmony aimed to diffuse a feeling of peace into your home..."
-    },
-    {
-      "brand": "Santa Maria Novella",
-      "name": "Fior di Loto Violet",
-      "price": 290,
-      "scent": "floral | musk | citrus",
-      "size": "1050g",
-      "setting": "relaxation, home decor",
-      "description": "Considered sacred in both Hindu and Buddhist traditions, the lotus plant emerges from the mud to float and flower beautifully on the water's surface, making it a powerful emblem of enlightenment. With seeds that can survive for hundreds of years, it is also regarded as a symbol of longevity. As a decorative scented candle, it brings not only beauty and fragrance to your home or garden, but also a wealth of historical, cultural and spiritual associations."
-    },
-    {
-      "brand": "Aesop",
-      "name": "Callippus Aromatique",
-      "price": 110,
-      "scent": "woody | earthy | green",
-      "size": "300g",
-      "setting": "home decor, relaxation",
-      "description": "Callippus Aromatique Candle is titled for an astronomer of Ancient Greece famed for refining the planetary theory of his time. Its woody, earthy, green fragrance alludes to rituals overlaid with the drifting smoke of incense."
-    }
-  ]
+  {
+    "brand": "Replica",
+    "name": "By the Fire",
+    "price": "$70",
+    "scent": "Smoky, woody, spicy",
+    "size": "165g",
+    "setting": "Winter, relaxation",
+    "description": "Recall the cozy and heartwarming atmosphere of a winter evening by the chimney. This luxury candle will fill your home with the addictive and wintery scent of wood and chestnuts grilling in the chimney. It unlocks the memory of a cozy winter evening by the chimney. The atmosphere created by this candle is warm and comforting bringing a reassuring sensation peacefulness. The warm and smoky scent of the candle has required many hours of work to adjust the ingredients of the fragrance created by renowned perfumer Marie Salamagne, and produce the exact same feeling of a reassuring warmth with the candle. Marie Salamagne used Cashmeran mixed with Clove oil to recreate the sensation of wood burning in the chimney (clove brings the burning effect of the wood). She reproduced the addictive scent of grilling Chestnuts using a Chestnuts Accord and the spicy effect of Red Berries.",
+    "img": "replica-fire"
+  },
+  {
+    "brand": "Replica",
+    "name": "Bubble Bath",
+    "price": "$70",
+    "scent": "Lavender, coconut milk, vanilla",
+    "size": "165g",
+    "setting": "Daily, relaxation",
+    "description": "Recall the relaxing and cocooning atmosphere of a me time in a foaming bath. This fragrance candle will envelop your home in a relaxing cocoon. This scented candle is an invitation for a me time of pure wellness. It will make you imagine yourself plunging into the bubbles of a hots scented bath, feeling your body soothed from all tensions.",
+    "img": "replica-bubble-img"
+  },
+  {
+    "brand": "Replica",
+    "name": "Beach Vibes",
+    "price": "$70",
+    "scent": "Bergamot, lemon, coconut milk",
+    "size": "165g",
+    "setting": "Daily, relaxation",
+    "description": "Recall the blissful and sunny atmosphere of summer vacations at a sandy beach. The Beach Vibes candle recreates a summer vacations atmosphere at home. You can imagine the salty breeze of the ocean under the heat of the sun as your feet sink into the burning sand.",
+    "img": "replica-beach"
+  },
+  {
+    "brand": "Diptyque",
+    "name": "Tubereuse",
+    "price": "$84",
+    "scent": "Tuberose, orange blossom, jasmine",
+    "size": "190g",
+    "setting": "Daily, date night",
+    "description": "The scent of Tuberose in the wide fields of Southern India, where these fragrant white flowers are grown. From the top of their long, slender stems, they exhale a heady yet fresh and green scent, delicately nuanced with fruity, milky notes.",
+    "img": "diptyque-tubereuse"
+  },
+  {
+    "brand": "Diptyque",
+    "name": "Baies",
+    "price": "$74",
+    "scent": "Blackcurrant, rose",
+    "size": "190g",
+    "setting": "Date night",
+    "description": "The tangy coolness of freshly picked blackcurrant berries. A few black bunches still have their leaves, their green and aromatic scent blending with the lively, flowery accents of rose.",
+    "img": "diptyque-baies"
+  },
+  {
+    "brand": "Tamburins",
+    "name": "Sounds of Night",
+    "price": "$50",
+    "scent": "Cedarwood, lavender, tonka bean",
+    "size": "180g",
+    "setting": "Relaxation, Date night",
+    "description": "Ylang Ylang's crystal clear scent, reminiscent of jasmine, fuses with a spicy yet calm, herbaceous dill and the bittersweet notes of apricot. A captivating fragrance, this exotic yet sensual blend imagines the aroma that amorous lovers in Shakespeare’s plays emanated to seduce their interests on a deep, dark evening.",
+    "img": "tamburins-sounds"
+  },
+  {
+    "brand": "Tamburins",
+    "name": "Cocoon Musk",
+    "price": "$50",
+    "scent": "Musk, amber, sandalwood",
+    "size": "180g",
+    "setting": "Date night",
+    "description": "Musk's primitive yet warm scent of the skin stimulates the nose with an aroma of animalistic instincts. Blended with the lingering notes of a musty cigar, this sensual and sophisticated fragrance provokes a rift in our senses. Spicy and bitter notes add complexity to the soft, tender scent of flesh that arises when you are cocooned in the embrace of your loved one.",
+    "img": "tamburins-cocoon"
+  },
+  {
+    "brand": "Tamburins",
+    "name": "Mulberry Leaves",
+    "price": "$50",
+    "scent": "Mulberry leaves, green tea, jasmine",
+    "size": "180g",
+    "setting": "Relaxation",
+    "description": "Oakwood’s thick and heavy scent of bark, with the sweetness of cognac, brushes the tip of the nose—while the balsamic and colorful, herbaceous patchouli summons the breath of an exotic land. With the velvety soft yet balsamic note of clary sage, known as the scent of the Greek goddess Aphrodite, a world of creative aroma unfolds. Enhanced by bitter notes of myrrh’s precious medicinal herbs that exude noble spiciness, this extraordinary fragrance relaxes the mind.",
+    "img": "tamburins-mulberry"
+  },
+  {
+    "brand": "Le Labo",
+    "name": "SANTAL 26",
+    "price": "$82",
+    "scent": "Sandalwood, amber, vanilla",
+    "size": "245g",
+    "setting": "Relaxation",
+    "description": "SANTAL 26 is an aristocratic scent, at once gentle, smoky, and leathery, that will fill your space and give it true personality. Come on baby, light my fire.",
+    "img": "le-labo-santal"
+  },
+  {
+    "brand": "Le Labo",
+    "name": "Veriveine",
+    "price": "$82",
+    "scent": "Verbena, bergamot, musk",
+    "size": "245g",
+    "setting": "Daily",
+    "description": "This is not your grandma’s herbal tea, but a vibrant homage to the uplifting side of the verbena leaf... The scent of zesty makrut lime glistens atop a fresh and earthy blend of eucalyptus, galbanum, and violet notes. Then, a luscious floral bouquet and woods creates an effusive aromatic harmony aimed to diffuse a feeling of peace into your home...",
+    "img": "le-labo-verveine"
+  },
+  {
+    "brand": "Santa Maria Novella",
+    "name": "Fior di Loto Violet",
+    "price": "$290",
+    "scent": "Lotus, Cinquanta Eau de Cologne",
+    "size": "1050g",
+    "setting": "Relaxation",
+    "description": "Considered sacred in both Hindu and Buddhist traditions, the lotus plant emerges from the mud to float and flower beautifully on the water's surface, making it a powerful emblem of enlightenment. With seeds that can survive for hundreds of years, it is also regarded as a symbol of longevity. As a decorative scented candle, it brings not only beauty and fragrance to your home or garden, but also a wealth of historical, cultural and spiritual associations.",
+    "img": "candela-profumata-fior-di-loto-viola1"
+  },
+  {
+    "brand": "Aesop",
+    "name": "Callippus Aromatique",
+    "price": "$110",
+    "scent": "Woody, earthy, green",
+    "size": "300g",
+    "setting": "Relatation",
+    "description": "Callippus Aromatique Candle is titled for an astronomer of Ancient Greece famed for refining the planetary theory of his time. Its woody, earthy, green fragrance alludes to rituals overlaid with the drifting smoke of incense.",
+    "img": "aesop-candle"
+  },
+  {
+    "brand": "Jo Malone",
+    "name": "Peony & Blush Suede",
+    "price": "$68",
+    "scent": "Peony, rose, suede",
+    "size": "200g",
+    "setting": "Daily",
+    "description": "The essence of charm. Peonies in voluptuous bloom, exquisitely fragile. Flirtatious with the juicy bite of red apple and the opulence of jasmine, rose and gillyflower. Mingling with the sensuality of soft, blush suede. Luxurious and seductive.",
+    "img": "jo-malone-peony"
+  },
+  {
+    "brand": "Diptyque",
+    "name": "Feu de Bois",
+    "price": "$68",
+    "scent": "Woodfire",
+    "size": "190g",
+    "setting": "Winter, Relaxation",
+    "description": "Wintertime… In the hearth, a fire roars, throwing out its light and casting shadows. The wood crackles as flames slowly consume the logs, releasing their dense, smoky scent.",
+    "img": "diptyque-feudebois"
+  },
+  {
+    "brand": "Byredo",
+    "name": "Burning Rose",
+    "price": "$85",
+    "scent": "Rose, leather, birch",
+    "size": "240g",
+    "setting": "Date Night, Winter",
+    "description": "A captivating and romantic fragrance that combines the deep and alluring scent of leather with the delicate and sweet aroma of rose petals. With notes of birch wood and vanilla, it creates a rich and complex fragrance that is perfect for setting the mood on a cold winter night.",
+    "img": "byredo-burning-rose"
+  },
+  {
+    "brand": "Le Labo",
+    "name": "Petit Grain 21",
+    "price": "$75",
+    "scent": "Orange blossom, petitgrain, lemon",
+    "size": "245g",
+    "setting": "Daily, relaxation",
+    "description": "An invigorating and uplifting scent that captures the essence of a bright and sunny day. With notes of fresh orange blossom, zesty lemon, and bitter petitgrain, it creates a refreshing and rejuvenating atmosphere that is perfect for everyday use.",
+    "img": "le-labo-petit"
+  },
+  {
+    "brand": "Voluspa",
+    "name": "Prosecco Rose",
+    "price": "$30",
+    "scent": "Prosecco, rose",
+    "size": "175g",
+    "setting": "Date Night",
+    "description": "Envision life through rose colored glasses with an effervescent cocktail of innocence and guile in a charming scent, bursting with the fizzy flash and sparkle of Pink Prosecco resting against the sweet purity of delicate, pink Rose Petals in a scent so disarmingly lovely that one is left giddy, enchanted and utterly intoxicated by its glistening beauty.",
+    "img": "voluspa-rose"
+  },
+  {
+    "brand": "Cire Trudon",
+    "name": "Solis Rex",
+    "price": "$125",
+    "scent": "Eucalyptus, cedarwood, incense",
+    "size": "270g",
+    "setting": "Winter, relaxation",
+    "description": "A Trudon classic, the Classic Candle fits all occasions; perfumes each and every room. Available in all scents, it is the most iconic. They are manufactured at the Trudon workshop in Normandy, France, using unrivaled know-how inherited from master candle makers.",
+    "img": "cire-abd"
+  },
+  {
+    "brand": "Byredo",
+    "name": "Bibliotheque",
+    "price": "$90",
+    "scent": "Birch wood, patchouli, vanilla",
+    "size": "240g",
+    "setting": "Relaxation",
+    "description": "Sheltered from the passage of time, libraries have the power to teleport us to a world in suspension. The velvety quality of the paper embodied in a touch of peach, plum and vanilla and the omnipresent patchouli like a backbone runs through the composition.",
+    "img": "byredo-bibli"
+  },
+  {
+    "brand": "Tom Ford",
+    "name": "Oud Wood",
+    "price": "$135",
+    "scent": "Oud, rosewood, cardamom",
+    "size": "148g",
+    "setting": "Date night, winter",
+    "description": "Evoking the enveloping warmth of incense-filled temples, this groundbreaking composition of exotic, smoky woods includes rare oud, sandalwood, rosewood, eastern spices, and sensual amber, revealing oud wood's rich and compelling power.",
+    "img": "tom-ford-oud"
+  },
+  {
+    "brand": "Nest Fragrances",
+    "name": "Moroccan Amber",
+    "price": "$42",
+    "scent": "Amber, patchouli, bergamot",
+    "size": "230g",
+    "setting": "Relaxation",
+    "description": "Create an exotic atmosphere with this Classic Candle featuring Moroccan amber, sweet patchouli, heliotrope, and bergamot with a hint of eucalyptus. Create an exotic atmosphere with this Classic Candle featuring Moroccan amber, sweet patchouli, heliotrope, and bergamot with a hint of eucalyptus.",
+    "img": "nest"
+  },
+  {
+    "brand": "Byredo",
+    "name": "Ambre Japanais",
+    "price": "$90",
+    "scent": "Vanilla, sesame, sandalwood",
+    "size": "240g",
+    "setting": "Date Night, daily",
+    "description": "Ambre Japonais celebrates the sophisticated art of Japanese gardens. The candle evokes an imaginary place where black peppercorn grows together with coriander seeds and in which bourbon vanilla melds with the toasted scent of sesame and notes of sandalwood.",
+    "img": "byredo-ambre"
+  },
+  {
+    "brand": "Jo Malone",
+    "name": "Lime Basil & Mandarin",
+    "price": "$68",
+    "scent": "Lime, basil, mandarin",
+    "size": "200g",
+    "setting": "Daily",
+    "description": "Peppery basil and aromatic white thyme bring an unexpected twist to the scent of limes on a Caribbean breeze. A modern classic.",
+    "img": "jo-malone-limebasil"
+  },
+  {
+    "brand": "Cire Trudon",
+    "name": "Abd El Kader",
+    "price": "$105",
+    "scent": "Spearmint, ginger, tobacco",
+    "size": "270g",
+    "setting": "Relaxation",
+    "description": "A Trudon classic, the Classic Candle fits all occasions; perfumes each and every room. Available in all scents, it is the most iconic. They are manufactured at the Trudon workshop in Normandy, France, using unrivaled know-how inherited from master candle makers.",
+    "img": "cire-abd"
+  },
+  {
+    "brand": "Byredo",
+    "name": "Tree House",
+    "price": "$90",
+    "scent": "Cedarwood, Leather, Sandalwood",
+    "size": "240g",
+    "setting": "Relaxation",
+    "description": "Some dreamed of tree houses as a child. Constructions that blend into their natural. Cedar, bamboo, sandalwood, guaiac wood and hay. A solid frame dotted with scents of spice, myrrh and labdanum.",
+    "img": "byredo-tree-house"
+  },
+  {
+    "brand": "Tom Dixon",
+    "name": "London",
+    "price": "$92",
+    "scent": "Oud, black pepper, vetiver",
+    "size": "550g",
+    "setting": "Daily",
+    "description": "This fragrance captures the smell of red brick and London parks with crocuses and nettles, and the salty smell of Thames at Dagenham. Encased in a hand-spun copper vessel with a solid white Banswara marble lid.",
+    "img": "tom-dixon-london"
+  },
+  {
+    "brand": "Malin + Goetz",
+    "name": "Dark Rum",
+    "price": "$60",
+    "scent": "Rum, leather, vanilla",
+    "size": "255g",
+    "setting": "Date Night, Relaxation",
+    "description": "Inspired by the old world bay rum first used by sailors traveling through the Caribbean and later popularized in barbershops, dark rum is a refreshing reinvention of a traditionally dark and spicy aroma. Sweetened with ripe plum and crisp bergamot, notes of leather, rum and creamy milk are blended into an intoxicating mix.",
+    "img": "malin-goetz-rum"
+  },
+  {
+    "brand": "Diptyque",
+    "name": "Mimosa",
+    "price": "$74",
+    "scent": "Mimosa, hay",
+    "size": "190g",
+    "setting": "Relaxation, Daily",
+    "description": "In February in the South of France, on the Tanneron hills near Grasse, the mimosas are in bloom. Their sunny golden yellow color stretches as far as the eye can see, and their small velvety blossoms scent the air with velvety, delicately honeyed notes.",
+    "img": "diptyque-mimosa"
+  },
+  {
+    "brand": "Aesop",
+    "name": "Aganice Aromatique",
+    "price": "$110",
+    "scent": "Clove, cardamom, mimosa",
+    "size": "300 g",
+    "setting": "Relaxation, Daily",
+    "description": "Aganice Aromatique Candle honours a female astronomer of Ancient Greece, renowned for her knowledge of the moon and its cycles. Floral, spicy and fresh, its fragrance recalls the intoxicating aromas of Cape Spartel in Tangier.",
+    "img": "aesop-candle"
+  },
+  {
+    "brand": "Aesop",
+    "name": "Ptolemy Aromatique",
+    "price": "$110",
+    "scent": "Woody, earthy, resinous",
+    "size": "300g",
+    "setting": "Daily",
+    "description": "Ptolemy Aromatique Candle is named for an ancient Greek-Egyptian astronomer whose work informed much medieval astronomy. Its resinous, earthy, woody fragrance brings to mind dense, old-growth Japanese forests.",
+    "img": "aesop-candle"
+  }
+]
