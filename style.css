@@ -115,6 +115,12 @@ section {
   border-bottom: 1px solid rgb(243, 242, 236);
 }
 
+#h{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  border-bottom: 1px solid rgb(243, 242, 236);
+}
+
 .number {
 font-size: 1.2rem;
 float: right;
