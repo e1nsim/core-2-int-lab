@@ -170,18 +170,22 @@ h1 {
 
 .price {
     font-family: 'Gothic A1', sans-serif;
+    color: rgb(102, 93, 89);
 }
 
 .scent {
     font-family: 'Gothic A1', sans-serif;
+    color: rgb(102, 93, 89);
 }
 
 .size {
+    color: rgb(102, 93, 89);
     font-family: 'Gothic A1', sans-serif;
 }
 
 .setting {
     font-family: 'Gothic A1', sans-serif;
+    color: rgb(102, 93, 89);
 }
 
 .description {
@@ -196,13 +200,14 @@ h1 {
     white-space: nowrap;
     overflow: hidden;
 }
+
 .description1 {
     font-family: 'Gothic A1', sans-serif;
     line-height: 2vh;
     text-align: justify;
     margin-left: 20px;
     color: rgb(0, 0, 0);
-  }
+}
 
 .description:hover {
     animation: scroll 20s linear infinite;
@@ -225,10 +230,57 @@ h1 {
     transform: translate(1.5vw, 0);
 }
 
+
 @media only screen and (max-width: 600px) {
 
-    .candle:hover {
-        height: 400px;
+
+    #container {
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
     }
 
+
+    .candle {
+        padding: 30px 0;
+        border-bottom: 1px solid white;
+        border-left: 0;
+        height: 10px;
+        overflow: hidden;
+        transition: height 600ms;
+        overflow-x: scroll;
+        overflow-y: scroll;
+        width: 100vw;
+    }
+
+    .candle:hover {
+        width: 80vw;
+        height: 40vh;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .candle:hover .hidden {
+        display: block;
+    }
+
+
+    .description1 {
+        margin: 10px;
+        line-height: 3vh;
+    }
+    .name {
+        font-size: 4vw;
+    }
+    .brand {
+        margin: 0;
+        font-size: 8vw;
+    }
+
+    .description {
+        rotate: none;
+        text-align: start;
+    }
 }

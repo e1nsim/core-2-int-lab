@@ -58,7 +58,6 @@ h1 {
   margin: 1vw;
 }
 
-
 /* .line-1 {
   height: .25vw;
   width: 62vw;
@@ -195,7 +194,7 @@ h1 {
   rotate: -90deg;
   /* transform: rotate(-90deg); */
   transform-origin: 1px;
-  -webkit-transform: translate(-100vh, 0vh);
+  transform: translate(-100vh, 0vh);
   position: relative;
   display:inline-block;
   white-space: nowrap;
@@ -229,10 +228,57 @@ h1 {
   transform: translate(1.5vw,0);
 }
 
+
 @media only screen and (max-width: 600px) {
 
+
+  #container {
+      flex-direction: column;
+      width: 100vw;
+      height: auto;
+  }
+
+
+  .candle {
+      padding: 30px 0;
+      border-bottom: 1px solid white;
+      border-left: 0;
+      height: 10px;
+      overflow: hidden;
+      transition: height 600ms;
+      overflow-x: scroll;
+      overflow-y: scroll;
+      width: 100vw;
+  }
+
   .candle:hover {
-    height: 400px;
+      width: 80vw;
+      height: 40vh;
+  }
+
+  .hidden {
+      display: none;
+  }
+
+  .candle:hover .hidden {
+      display: block;
+  }
+
+  .name {
+    font-size: 4vw;
+}
+  .description1 {
+      margin: 10px;
+      line-height: 3vh;
+  }
+
+  .brand {
+      margin: 0;
+  }
+
+  .description {
+      rotate: none;
+      text-align: start;
   }
 
 }
