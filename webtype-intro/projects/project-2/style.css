@@ -31,7 +31,7 @@ a:visited {
   color: black;
 }
 .daily:hover {
-  color: rgb(219, 228, 235);
+  color: rgb(147, 178, 202);
   text-decoration: underline;
   
 }
@@ -41,7 +41,7 @@ a:visited {
   
 }
 .date:hover {
-  color: rgb(219, 228, 235);
+  color: rgb(147, 178, 202);
   text-decoration: underline;
   
 }
