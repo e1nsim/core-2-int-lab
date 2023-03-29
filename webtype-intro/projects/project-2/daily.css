@@ -199,6 +199,7 @@ h1 {
   display:inline-block;
   white-space: nowrap;
   overflow: hidden;
+  font-weight: 100;
 }
 
 .description1 {
