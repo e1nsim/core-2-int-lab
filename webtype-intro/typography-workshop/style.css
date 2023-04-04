@@ -33,6 +33,7 @@ body {
     color: rgb(255, 137, 83);
     justify-content: start;
     cursor: url(./assets/hamster.png), default;
+    margin-top: 0;
 }
 
 section {
@@ -69,8 +70,10 @@ h1 {
     font-family: "gtsansbold";
     font-size: 5rem;
     float: left;
-    margin-left: 20px;
-    grid-row-start: 1;
+    margin-top: 0 auto;
+    position: absolute;
+    padding: var(--pad);
+    line-height: 4vw;
 }
 
 h2 {
@@ -152,4 +155,22 @@ sup {
 [lang=gr] {
     font-family: 'Vollkorn', serif;
     font-size: 1.15em;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        rotate: -90deg;
+    }
+    section {
+        margin-top: 100px;
+    }
+    body {
+        margin-top: 100px;
+        background-color: black;
+    }
+
+    .hamster {
+        float: left;
+        margin-left: 10px;
+    }
 }
