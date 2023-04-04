@@ -47,17 +47,17 @@ section {
 
 .grid {
     display: grid;
-    height: 200px;
-    width: 200px;
+    height: 50%;
+    width: 50%;
     grid-template-rows: auto 1fr;
 }
 
 .hamster {
     width: 30vw;
-    float: left;
+    justify-self: center;
     grid-row-start: 2;
     position: fixed;
-    left: 0;
+    left: 5%;
     top: 20%
 }
 
