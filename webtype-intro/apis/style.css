@@ -1,0 +1,37 @@
+body {
+   background: rgb(195, 192, 192);
+}
+.container {
+   max-width: 600px;
+   max-height: 100vh;
+   margin: 0 auto;
+   padding: 20px;
+   text-align: center;
+ }
+ 
+ h1 {
+   font-size: 40px;
+   font-family:Arial, Helvetica, sans-serif;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   color: transparent;
+ }
+ 
+ button {
+   padding: 10px 20px;
+   font-size: 18px;
+   background-color: white;
+   color: rgb(102, 102, 102);
+   border: none;
+   cursor: pointer;
+   margin-bottom: 20px;
+ }
+ 
+ #advice {
+   font-size: 80px;
+   margin-top: 20px;
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+   color: rgb(255, 247, 131);
+ }
+ 
