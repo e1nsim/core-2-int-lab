@@ -3,23 +3,29 @@ h1 {
     font-size: 5vw;
     position: relative;
     top: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "maax";
     font-weight: 700;
-    margin: 1vw;
-    text-align: center;
+    margin: 3vw;
+}
+
+@font-face {
+    font-family: "maax";
+    src: url(assets/maax.otf);
 }
 
 p {
     color: rgb(32, 13, 219);
     width: 60vw;
-    margin: 120px;
+    margin: 3vw;
+    font-family: "maax";
+
 }
 
 body {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background-color: rgb(197, 255, 199);
+    background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2vw;
 }
@@ -32,13 +38,13 @@ body {
 }
 
 .handicap {
-    margin: 120px;
+    margin: 3vw;
     color: rgb(32, 13, 219);
 }
 
 .total {
     text-align: right;
-    margin: 120px;
+    margin: 3vw;
     color: rgb(32, 13, 219);
 
 }
@@ -62,7 +68,175 @@ button {
     color: rgb(32, 13, 219);
     background-color: white;
 }
+
 button:hover {
     color: rgb(254, 255, 159);
     background-color: rgb(32, 13, 219);
-  }
+}
+
+h2 {
+    font-family: "maax";
+}
+
+.circle {
+    position: relative;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(32, 13, 219);
+    margin: 10px;
+}
+
+/* .circle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #f00;
+    transition: height 0.5s ease;
+    transform-origin: bottom;
+} */
+
+.circle:hover::before {
+    height: 100%;
+}
+
+#staten {
+    height: 143px;
+    width: 143px;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    transform: translate(0,50px);
+}
+#staten::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #f00;
+    transition: height 0.5s ease;
+    transform-origin: bottom;
+}
+#staten:hover::before {
+    height: 23%;
+}
+#bronx {
+    height: 129px;
+    width: 129px;
+    grid-column-start: 2;
+}
+#bronx::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #f00;
+    transition: height 0.5s ease;
+    transform-origin: bottom;
+}
+#bronx:hover::before {
+    height: 23%;
+}
+#brooklyn {
+    height: 149px;
+    width: 149px;
+    grid-column-start: 2;
+}
+#brooklyn::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #f00;
+    transition: height 0.5s ease;
+    transform-origin: bottom;
+}
+#brooklyn:hover::before {
+    height: 23%;
+}
+#queens {
+    height: 186px;
+    width: 186px;
+    grid-column-start: 2;
+}
+#queens::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #f00;
+    transition: height 0.5s ease;
+    transform-origin: bottom;
+}
+#queens:hover::before {
+    height: 23%;
+}
+#manhattan {
+    height: 77px;
+    width: 77px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    justify-self: end;
+}
+#manhattan::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #f00;
+    transition: height 0.5s ease;
+    transform-origin: bottom;
+}
+
+#manhattan:hover::before {
+    height: 23%;
+}
+/* #c1:hover {
+    height: 250px;
+    width: 250px;
+}
+
+#c2:hover {
+    height: 350px;
+    width: 350px;
+}
+
+#c3:hover {
+    height: 450px;
+    width: 450px;
+}
+
+#c4:hover {
+    height: 350px;
+    width: 350px;
+}  */
+
+.borough {
+    display: grid;
+    width: 50vw;
+    height: 50vh;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
