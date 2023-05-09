@@ -29,7 +29,7 @@ h2 {
 
 .responses {
     display: grid;
-    margin-left: 5rem;
+    margin-left: 2rem;
     gap: 50px;
 }
 #response1 {
@@ -176,7 +176,21 @@ h2 {
     grid-column-end: 2;
     grid-row-start: 13;
     grid-row-end: 14;
-    padding: 15px 25px 30px;
+    padding: 15px 25px 110px;
+    color: rgb(0, 0, 112);
+    border-style: dashed;
+    border-color: rgb(0, 0, 112);
+    border-width: 3px;
+}
+
+#response12 {
+    height: 550px;
+    width: 500px;
+    grid-column-start: 1; 
+    grid-column-end: 2;
+    grid-row-start: 14;
+    grid-row-end: 15;
+    padding: 15px 25px 130px;
     color: rgb(0, 0, 112);
     border-style: dashed;
     border-color: rgb(0, 0, 112);
