@@ -174,8 +174,8 @@ h2 {
     width: 500px;
     grid-column-start: 1; 
     grid-column-end: 2;
-    grid-row-start: 12;
-    grid-row-end: 13;
+    grid-row-start: 13;
+    grid-row-end: 14;
     padding: 15px 25px 30px;
     color: rgb(0, 0, 112);
     border-style: dashed;

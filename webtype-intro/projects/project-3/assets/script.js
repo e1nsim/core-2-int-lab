@@ -26,3 +26,5 @@ fetch(`${apiUrl}?$$app_token=${appToken}`)
     document.body.appendChild(table);
   })
   .catch(error => console.error(error));
+
+  

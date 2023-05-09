@@ -1,10 +1,11 @@
 h1 {
     color: rgb(32, 13, 219);
-    font-size: 5vw;
+    font-size: 5.8vw;
     position: relative;
     top: 0px;
     font-family: "maax";
     font-weight: 700;
+    text-align: left;
     margin: 3vw;
 }
 
@@ -13,11 +14,20 @@ h1 {
     src: url(assets/maax.otf);
 }
 
+@font-face {
+    font-family: "maaxthin";
+    src: url(assets/maaxthin.otf);
+}
+
 p {
-    color: rgb(32, 13, 219);
-    width: 60vw;
-    margin: 3vw;
-    font-family: "maax";
+    color: rgb(0, 0, 0);
+    width: auto;
+    font-family: "maaxthin";
+    text-align: center;
+    white-space: nowrap;
+    font-size: 2.05vw;
+    margin-top: auto;
+
 
 }
 
@@ -26,8 +36,12 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2vw;
+    font-family: "maaxthin";
+    font-size: 1.8vw;
+    background-image: linear-gradient(to right, rgba(43, 114, 66, 0.1) 2px, transparent 2px),
+        linear-gradient(to bottom, rgba(7, 63, 23, 0.1) 2px, transparent 2px);
+    background-size: 80px 80px;
+    background-position: center;
 }
 
 #container {
@@ -38,40 +52,80 @@ body {
 }
 
 .handicap {
-    margin: 3vw;
+    margin-left: 10vw;
+    margin-top: 5vw;
     color: rgb(32, 13, 219);
+    opacity: 0;
+    transform: translateX(-50%);
+    animation: slide-in 0.5s ease-in-out forwards;
+
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in2 {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
 }
 
 .total {
-    text-align: right;
-    margin: 3vw;
+    text-align: left;
     color: rgb(32, 13, 219);
+    /* animation: slide-in2 0.5s ease-in-out forwards; */
+    /* animation-delay: 1s; */
+    position: fixed;
+    margin-left: 3vw;
+    bottom: -3vh;
+    width: auto;
 
+
+}
+
+.text {
+    font-family: "maaxthin";
+    font-size: 1.5vw;
 }
 
 .number {
-    font-size: 8vw;
+    font-size: 6vw;
+    font-weight: 100;
+    color: white;
+    -webkit-text-stroke: 2px rgb(32, 13, 219);
+}
+
+.number1 {
+    font-size: 1.8vw;
     font-weight: 100;
     color: rgb(32, 13, 219);
+    font-family: "maax";
 
 }
 
-button {
-    display: inline-block;
-    justify-content: center;
-    width: 200px;
-    border: none;
-    padding: 20px;
-    left: 45%;
-    top: 200%;
-    position: absolute;
-    color: rgb(32, 13, 219);
-    background-color: white;
+a:link {
+    color: white;
+    text-decoration: none;
 }
 
-button:hover {
-    color: rgb(254, 255, 159);
-    background-color: rgb(32, 13, 219);
+a:visited {
+    color: rgb(255, 255, 80);
+    text-decoration: none;
 }
 
 h2 {
@@ -86,157 +140,487 @@ h2 {
     color: #fff;
     background-color: rgb(32, 13, 219);
     margin: 10px;
+    padding: 5px;
+    transform: translate(0, 0);
+    transform-origin: 0 0;
+    overflow: hidden;
+
+
 }
 
-/* .circle::before {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 0%;
-    background-color: #f00;
-    transition: height 0.5s ease;
-    transform-origin: bottom;
-} */
+@keyframes shake {
+    0% {
+        transform: translate(0, 0);
+    }
 
-.circle:hover::before {
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translate(-1px, 1px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translate(1px, -1px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.circle:hover {
     height: 100%;
+    animation-fill-mode: forwards;
+    animation: shake 1s infinite;
+
 }
 
 #staten {
-    height: 143px;
-    width: 143px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
     grid-column-start: 1;
     grid-row-start: 3;
-    transform: translate(0,50px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    left: 8vw;
+    top: 10vh;
 }
+
 #staten::before {
-    content: "";
+    content: "0.0647%";
     display: block;
+    color: rgb(32, 13, 219);
     position: absolute;
+    font-size: 1vw;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 0%;
-    background-color: #f00;
-    transition: height 0.5s ease;
+    background-color: rgb(255, 255, 80);
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
     transform-origin: bottom;
 }
+
 #staten:hover::before {
-    height: 23%;
+    height: 15%;
+    transform: translateY(0);
 }
+
 #bronx {
-    height: 129px;
-    width: 129px;
-    grid-column-start: 2;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    grid-column-start: 1;
+    justify-self: end;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 10vh;
+    left: 13vw;
 }
+
 #bronx::before {
-    content: "";
+    content: "0.2766%";
     display: block;
+    color: rgb(32, 13, 219);
     position: absolute;
+    font-size: 1vw;
+
     bottom: 0;
     left: 0;
     width: 100%;
     height: 0%;
-    background-color: #f00;
-    transition: height 0.5s ease;
-    transform-origin: bottom;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(255, 255, 80);
 }
+
 #bronx:hover::before {
-    height: 23%;
+    height: 20%;
+    transform: translateY(0);
 }
+
 #brooklyn {
-    height: 149px;
-    width: 149px;
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
     grid-column-start: 2;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    left: 11vw;
+    top: -8vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
+
 #brooklyn::before {
-    content: "";
+    content: "0.2447%";
     display: block;
     position: absolute;
+    font-size: 1vw;
+
+    color: rgb(32, 13, 219);
     bottom: 0;
     left: 0;
     width: 100%;
     height: 0%;
-    background-color: #f00;
-    transition: height 0.5s ease;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
     transform-origin: bottom;
+    background-color: rgb(255, 255, 80);
 }
+
 #brooklyn:hover::before {
-    height: 23%;
+    height: 15%;
+    transform: translateY(0);
 }
+
 #queens {
-    height: 186px;
-    width: 186px;
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
     grid-column-start: 2;
+    grid-row-start: 2;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    left: 13vw;
+    top: -8vh;
+
 }
+
 #queens::before {
-    content: "";
+    content: "0.1484%";
     display: block;
     position: absolute;
+    font-size: 1vw;
+    color: rgb(32, 13, 219);
     bottom: 0;
     left: 0;
     width: 100%;
     height: 0%;
-    background-color: #f00;
-    transition: height 0.5s ease;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
     transform-origin: bottom;
+    background-color: rgb(255, 255, 80);
 }
+
 #queens:hover::before {
-    height: 23%;
+    height: 15%;
+    transform: translateY(0);
 }
+
 #manhattan {
-    height: 77px;
-    width: 77px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
     grid-column-start: 1;
     grid-row-start: 2;
     justify-self: end;
+    top: 10vh;
+    left: 9vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
+
 #manhattan::before {
-    content: "";
+    content: "0.5654%";
     display: block;
+    padding: 1px;
     position: absolute;
+    color: rgb(32, 13, 219);
+    font-size: .7vw;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 0%;
-    background-color: #f00;
-    transition: height 0.5s ease;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
     transform-origin: bottom;
+    background-color: rgb(255, 255, 80);
 }
 
 #manhattan:hover::before {
-    height: 23%;
+    height: 30%;
+    transform: translateY(0);
 }
-/* #c1:hover {
-    height: 250px;
-    width: 250px;
-}
-
-#c2:hover {
-    height: 350px;
-    width: 350px;
-}
-
-#c3:hover {
-    height: 450px;
-    width: 450px;
-}
-
-#c4:hover {
-    height: 350px;
-    width: 350px;
-}  */
 
 .borough {
     display: grid;
-    width: 50vw;
-    height: 50vh;
+    width: auto;
+    height: auto;
     grid-template-columns: auto;
     grid-template-rows: auto;
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-bottom: 100vw;
+    font-family: "maax";
+    position: relative;
+    padding: 100px;
 }
+
+.info {
+    /* margin: 3vw; */
+    text-align: left;
+    position: absolute;
+    align-self: start;
+    justify-self: end;
+    font-size: 1.3vw;
+    font-family: "maaxthin";
+    width: 35vw;
+    border: 1px solid black;
+    padding: 0.7vw;
+
+}
+
+@media only screen and (max-width: 600px) {
+    #container {
+        width: 600px;
+    }
+    h1 {
+        font-size: 4.5vw;
+        margin-left: 3vw;
+        position: relative;
+    }
+ 
+    p {
+        font-size: 2vw;
+        text-align: left;
+        margin-left: 3vw;
+    }
+
+    .total {
+        font-size: 2vw;
+        margin-left: 3vw;
+        margin-bottom: 320px;
+    }
+
+    .number {
+        font-size: 5vw;
+        -webkit-text-stroke: 1px solid rgb(32, 13, 219);;
+    }
+
+    .number1 {
+        font-size: 2vw;
+    }
+
+    .info {
+        justify-self: start;
+    }
+
+    .circle {
+        font-size: 1.5vw;
+        margin: auto;
+    }
+
+    .text {
+        bottom: -100px;
+    }
+
+    #staten {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        grid-column-start: 1;
+        grid-row-start: 3;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        left: 8vw;
+        top: 10vh;
+    }
+
+    #staten::before {
+        content: "0.0647%";
+        display: block;
+        color: rgb(32, 13, 219);
+        position: absolute;
+        font-size: 1vw;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        background-color: rgb(255, 255, 80);
+        transform: translateY(100%);
+        transition: transform 0.3s ease-in-out;
+        transform-origin: bottom;
+    }
+
+    #staten:hover::before {
+        height: 15%;
+        transform: translateY(0);
+    }
+
+    #bronx {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        grid-column-start: 1;
+        justify-self: end;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        top: 10vh;
+        left: 13vw;
+    }
+
+    #bronx::before {
+        content: "0.2766%";
+        display: block;
+        color: rgb(32, 13, 219);
+        position: absolute;
+        font-size: 1vw;
+
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        transform: translateY(100%);
+        transition: transform 0.3s ease-in-out;
+        background-color: rgb(255, 255, 80);
+    }
+
+    #bronx:hover::before {
+        height: 20%;
+        transform: translateY(0);
+    }
+
+    #brooklyn {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        grid-column-start: 2;
+        grid-row-start: 2;
+        grid-column-start: 2;
+        grid-row-start: 3;
+        left: 11vw;
+        top: -8vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    #brooklyn::before {
+        content: "0.2447%";
+        display: block;
+        position: absolute;
+        font-size: 1vw;
+
+        color: rgb(32, 13, 219);
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        transform: translateY(100%);
+        transition: transform 0.3s ease-in-out;
+        transform-origin: bottom;
+        background-color: rgb(255, 255, 80);
+    }
+
+    #brooklyn:hover::before {
+        height: 15%;
+        transform: translateY(0);
+    }
+
+    #queens {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        grid-column-start: 2;
+        grid-row-start: 2;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        left: 13vw;
+        top: -8vh;
+
+    }
+
+    #queens::before {
+        content: "0.1484%";
+        display: block;
+        position: absolute;
+        font-size: 1vw;
+        color: rgb(32, 13, 219);
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        transform: translateY(100%);
+        transition: transform 0.3s ease-in-out;
+        transform-origin: bottom;
+        background-color: rgb(255, 255, 80);
+    }
+
+    #queens:hover::before {
+        height: 15%;
+        transform: translateY(0);
+    }
+
+    #manhattan {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        grid-column-start: 1;
+        grid-row-start: 2;
+        justify-self: end;
+        top: 10vh;
+        left: 9vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    #manhattan::before {
+        content: "0.5654%";
+        display: block;
+        padding: 1px;
+        position: absolute;
+        color: rgb(32, 13, 219);
+        font-size: .7vw;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        transform: translateY(100%);
+        transition: transform 0.3s ease-in-out;
+        transform-origin: bottom;
+        background-color: rgb(255, 255, 80);
+    }
+
+    #manhattan:hover::before {
+        height: 30%;
+        transform: translateY(0);
+    }
+
+    .borough {
+        padding: 20px;
+        margin-left: 3vw;
+        width: 100vw;
+    }
+}
+
+
+/* - position of circles moving when animation starts
+- animation outlining border of grid
+- fill circle 
+
+-link handicap
+- style chart
+- arrows to next borough
+- handicap symbol
+
+-overflow hidden
+- connect home page to list view
+- add visual indicator 
+    - circles on top from the home page indicating what percentage is handicap accessible out of all toilets in borough*/

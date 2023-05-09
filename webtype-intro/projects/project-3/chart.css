@@ -1,64 +1,289 @@
 body {
-    background-color: white;
-    font-family: "maax"
-}
-h1 {
-    font-family: "maax";
+  background-color: white;
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(to right, rgba(43, 114, 66, 0.1) 1px, transparent 2px),
+    linear-gradient(to bottom, rgba(7, 63, 23, 0.1) 1px, transparent 2px);
+  background-size: 80px 80px;
+  background-position: center;
+  font-size: 2vw;
+  font-family: "maaxthin";
 
+
+}
+
+h1 {
+  font-family: "maax";
+  position: fixed;
+  margin: 2vw;
+  top: 0;
+  font-size: 5.8vw;
+
+}
+a:link {
+  text-decoration: none;
+  color: rgb(32, 13, 219);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(32, 13, 219);
 }
 
 @font-face {
-    font-family: "maax";
-    src: url(assets/maax.otf);
+  font-family: "maax";
+  src: url(assets/maax.otf);
 }
+
+@font-face {
+  font-family: "maaxthin";
+  src: url(assets/maaxthin.otf);
+}
+
 /* table */
 table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
-  table td, table th {
-    border: 1px solid #ddd;
-    padding: 8px;
-  }
-  
-  table th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-  }
-  
-  /* search */
-  .form-group {
-    margin-bottom: 20px;
-    
-  }
-  
-  .form-group input[type="text"] {
-    padding: 10px;
-    width: 100%;
-    border-radius: 4px;
-    border: 1px solid rgb(197, 255, 199)
-    
-  }
-  
-  .form-group button {
-    background-color: rgb(32, 13, 219);;
-    border: none;
-    color: rgb(254, 255, 159);
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .form-group button:hover {
-    background-color: rgb(225, 255, 0);
-    color: darkolivegreen;
-  }
-  
-  /* error*/
-  .error {
-    color: red;
-    margin-bottom: 20px;
-  }
-  
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 2vw;
+  margin-top: 18vh;
+  margin-left: 2vw;
+}
+
+table td,
+table th {
+  border: 1px solid #ffffff;
+  padding: 8px;
+}
+
+table th:nth-child(1),
+table th:nth-child(2),
+table td:nth-child(1),
+table td:nth-child(2) {
+  width: 25%;
+}
+
+.brooklyn {
+  position: fixed;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgb(32, 13, 219);
+  right: 30px;
+  bottom: 30px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+
+.brooklyn::before {
+  content: "0.2447%";
+  display: block;
+  position: absolute;
+  font-size: 1vw;
+
+  color: rgb(32, 13, 219);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: bottom;
+  background-color:  rgb(255, 255, 80);
+}
+
+.brooklyn:hover::before {
+  height: 15%;
+  transform: translateY(0);
+}
+
+.bronx {
+  position: fixed;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgb(32, 13, 219);
+  right: 30px;
+  bottom: 30px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+
+.bronx::before {
+  content: "0.2766%";
+  display: block;
+  position: absolute;
+  font-size: 1vw;
+
+  color: rgb(32, 13, 219);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: bottom;
+  background-color:  rgb(255, 255, 80);
+}
+
+.bronx:hover::before {
+  height: 15%;
+  transform: translateY(0);
+}
+
+.queens {
+  position: fixed;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgb(32, 13, 219);
+  right: 30px;
+  bottom: 30px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+
+.queens::before {
+  content:  "0.1484%";
+  display: block;
+  position: absolute;
+  font-size: 1vw;
+
+  color: rgb(32, 13, 219);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: bottom;
+  background-color: rgb(255, 255, 80);
+}
+
+.queens:hover::before {
+  height: 15%;
+  transform: translateY(0);
+}
+
+.staten {
+  position: fixed;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgb(32, 13, 219);
+  right: 30px;
+  bottom: 30px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+
+.staten::before {
+  content: "0.0647%";
+  display: block;
+  position: absolute;
+  font-size: 1vw;
+
+  color: rgb(32, 13, 219);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: bottom;
+  background-color:  rgb(255, 255, 80);
+}
+
+.staten:hover::before {
+  height: 15%;
+  transform: translateY(0);
+}
+
+.manhattan {
+  position: fixed;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgb(32, 13, 219);
+  right: 30px;
+  bottom: 30px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+
+.manhattan::before {
+  content: "0.5654%";
+  display: block;
+  position: absolute;
+  font-size: 1vw;
+  color: rgb(32, 13, 219);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: bottom;
+  background-color: yellow;
+}
+
+.manhattan:hover::before {
+  height: 15%;
+  transform: translateY(0);
+}
+
+.next {
+float: right;
+position: relative;
+margin: 3vw;
+font-family: "maax";
+}
+
+
+/* .rectangle {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(32, 13, 219);
+  display: flex;
+  overflow: hidden;
+   transform: translate(0, 0);
+}
+
+.rectangle::before {
+  content: "0.0647%";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: yellow;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.rectangle:hover::before {
+  width: 15%;
+  transform: translateX(0);
+  opacity: 1;
+} */

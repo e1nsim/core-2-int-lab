@@ -1,5 +1,5 @@
 const appToken = "9iD0u2SchkncVrxQ7Z33SPDf4";
-const apiUrl = "https://data.cityofnewyork.us/resource/hjae-yuav.json?borough=Brooklyn&$$app_token=";
+const apiUrl = "https://data.cityofnewyork.us/resource/hjae-yuav.json?borough=Queens&$$app_token=";
 
 fetch(`${apiUrl}${appToken}`)
   .then(response => response.json())
@@ -30,3 +30,4 @@ fetch(`${apiUrl}${appToken}`)
     document.body.appendChild(table);
   })
   .catch(error => console.error(error));
+

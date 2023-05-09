@@ -1,5 +1,5 @@
 const appToken = "9iD0u2SchkncVrxQ7Z33SPDf4";
-const apiUrl = "https://data.cityofnewyork.us/resource/hjae-yuav.json?borough=Brooklyn&$$app_token=";
+const apiUrl = "https://data.cityofnewyork.us/resource/hjae-yuav.json?borough=Staten Island&$$app_token=";
 
 fetch(`${apiUrl}${appToken}`)
   .then(response => response.json())
@@ -13,8 +13,6 @@ fetch(`${apiUrl}${appToken}`)
         cell.textContent = key.replace(/_/g, " ").replace(/\b\w/g, l => l.toUpperCase()); // modify the key
       }
     });
-    const accessibleCell = headerRow.insertCell();
-    accessibleCell.textContent = "Handicap Accessible";
 
 
     data.forEach(obj => {

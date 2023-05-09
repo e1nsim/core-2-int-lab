@@ -1,5 +1,5 @@
 const appToken = "9iD0u2SchkncVrxQ7Z33SPDf4";
-const apiUrl = "https://data.cityofnewyork.us/resource/hjae-yuav.json?borough=Brooklyn&$$app_token=";
+const apiUrl = "https://data.cityofnewyork.us/resource/hjae-yuav.json?borough=Bronx&$$app_token=";
 
 fetch(`${apiUrl}${appToken}`)
   .then(response => response.json())
