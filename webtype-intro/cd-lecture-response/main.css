@@ -1,10 +1,44 @@
 h1 {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: rgb(183, 255, 0); */
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 120px;
+    position: relative;
+    color: transparent;
+    margin: 10px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
 }
 
 nav {
     text-align: center;
+    border: 1px solid white;
 }
+
+a:link {
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+
 .cdresponse {
     display: grid;
     margin: 1rem;
@@ -13,35 +47,36 @@ nav {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 600px 600px;
 }
-.response1 {
+
+#response1 {
     width: 400px;
-    height: 500px;
-    color: black;
-    background-color: lightgrey;
+    height: 520px;
     margin: .5rem;
     padding: 1rem;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
 }
 
-.response2 {
+#response2 {
     width: 400px;
     height: 500px;
-    color: black;
-    background-color: lightgrey;
     margin: .5rem;
     padding: 1rem;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
 }
 
-.response3 {
+#response3 {
     width: 400px;
     height: 500px;
-    color: black;
-    background-color: lightgrey;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
     margin: .5rem;
     padding: 1rem;
     grid-column-start: 2;
@@ -49,11 +84,11 @@ nav {
     grid-row-start: 3;
 }
 
-.response4 {
+#response4 {
     width: 400px;
     height: 500px;
-    color: black;
-    background-color: lightgrey;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
     margin: .5rem;
     padding: 1rem;
     grid-column-start: 2;
@@ -61,11 +96,11 @@ nav {
     grid-row-start: 4;
 }
 
-.response5 {
+#response5 {
     width: 400px;
     height: 500px;
-    color: black;
-    background-color: lightgrey;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
     margin: .5rem;
     padding: 1rem;
     grid-column-start: 2;
