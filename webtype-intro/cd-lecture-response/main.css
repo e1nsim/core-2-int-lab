@@ -8,6 +8,7 @@ nav {
 .cdresponse {
     display: grid;
     margin: 1rem;
+    width: 100vw;
     gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 600px 600px;
@@ -19,8 +20,9 @@ nav {
     background-color: lightgrey;
     margin: .5rem;
     padding: 1rem;
-    grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
 }
 
 .response2 {
@@ -32,6 +34,7 @@ nav {
     padding: 1rem;
     grid-column-start: 2;
     grid-column-end: 3;
+    grid-row-start: 2;
 }
 
 .response3 {
@@ -41,6 +44,31 @@ nav {
     background-color: lightgrey;
     margin: .5rem;
     padding: 1rem;
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+}
+
+.response4 {
+    width: 400px;
+    height: 500px;
+    color: black;
+    background-color: lightgrey;
+    margin: .5rem;
+    padding: 1rem;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+}
+
+.response5 {
+    width: 400px;
+    height: 500px;
+    color: black;
+    background-color: lightgrey;
+    margin: .5rem;
+    padding: 1rem;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
 }
